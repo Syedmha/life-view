@@ -4,6 +4,7 @@ import { useState } from "react"
 import LifeChart from "./life-chart"
 
 const countries = [
+  { name: "India", code: "IN", lifeExpectancy: 70.62 },
   { name: "United States", code: "US", lifeExpectancy: 78.5 },
   { name: "Japan", code: "JP", lifeExpectancy: 84.2 },
   { name: "Germany", code: "DE", lifeExpectancy: 81.1 },
